@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="621" viewBox="0 0 1440 621">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_288" data-name="Rectangle 288" width="1440" height="621" transform="translate(0 2260)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.251" y1="-0.801" x2="0.512" y2="0.68" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9edff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.517" y1="0.876" x2="0.534" y2="-0.507" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.962" stop-color="#b7d6f2"/>
+      <stop offset="1" stop-color="#c6e4ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.466" y1="0.732" x2="0.46" y2="-0.552" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="footer-graphic-desktop" transform="translate(0 -2260)" clip-path="url(#clip-path)">
+    <g id="Group_390" data-name="Group 390" transform="translate(0 -340)">
+      <path id="Path_91" data-name="Path 91" d="M-1546.863-67.083s179.047,12.7,512.931,120.429S-358.391-30.61-358.391-30.61l-10.718,518.817H-1544.817Z" transform="translate(1504.588 2889.812) rotate(8)" fill="url(#linear-gradient)"/>
+      <path id="Path_92" data-name="Path 92" d="M-1544.358,6.162s100.774-52.454,283.411-21.69c51.118,8.61,261.434-57.724,375.635-92.851,8.842,25.283,58.677,133.769,60.5,133.467,272.628,150.49,331.26-78.056,331.26-78.056l30.265,666H-1544.358Z" transform="translate(1978.852 2934)" opacity="0.7" fill="url(#linear-gradient-2)"/>
+      <path id="Path_91-2" data-name="Path 91" d="M-104.357-67.083s-219.3,15.549-628.235,147.5S-1546.863-23.9-1546.863-23.9V613.033h1440Z" transform="translate(1544.357 2824)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>

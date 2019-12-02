@@ -1,0 +1,316 @@
+/* NAVBAR */
+.nav-custom{
+    height: 50px;
+    font-family: Montserrat Medium;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-size: 15px;
+    
+}
+.navbar-brand, .nav-link{
+    color: #ffffff !important;
+    padding-top: 30px;
+}
+.nav-link{
+    margin-right: 15Px;
+    text-transform: uppercase;
+}
+.title-image{
+    margin-top: 30px;
+}
+.title{
+    font-family:Montserrat ExtraBold;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.tombol{
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #34A6D8;
+}
+/* END NAVBAR */
+
+
+/* HOME */
+.home{
+    width: 100%;
+    height: 200vh;
+}
+
+.panel, .col-5{
+    width: 50%;
+    height: 150px;
+    background-color:#ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+
+}
+.panel-title:hover{
+    color:#ffffff;
+}
+.panel-title:hover p{
+    color:#f7f7f7;
+}
+.panel a{
+    text-decoration:none
+}
+.col-5:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(#34A6D8,rgb(0, 90, 129));
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 10px;
+    }
+    .col-5:hover, .col-5:focus, .col-5:active {
+        color: white;
+    }
+    .col-5:hover:before, .col-5:focus:before, .col-5:active:before {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+        -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+
+.img{
+    margin-top: -70px;
+}
+.panel-title{
+    margin-top: 10px;
+    font-family: Montserrat SemiBold;
+    color: #7c7c7c;
+    font-size: 20px;
+}
+.panel-title p{
+    font-family: Montserrat SemiBold;
+    font-size: 13px;
+    color: #c3c3c3;
+}
+/* END HOME */
+
+/* JUMBOTRON */
+.jumbotron{
+    background-image : url('../images/jumbotron.png');
+    background-size : cover;
+    height : 768px;
+    margin-top: -20px;
+    }
+
+.display-4{
+    font-family:Montserrat ExtraBold;
+    font-size: 40px;
+    color: white;
+    margin-top: 120px;
+}
+.jumbotron-h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    font-family:Montserrat ExtraBold;
+}
+h2{
+    margin-top: -30px;
+    color: white;
+    font-size: 30px ;
+}
+#layanan{
+    padding-top: 120px;
+}
+/* END JUMBOTRON */
+
+
+
+/* PROFIL Sejarah*/
+.profil{
+    width: 100%;
+    height: 200vh;
+    font-family: Montserrat;
+    text-align: center;
+    padding-top:100px;
+}
+.profil h1{
+    font-family: Montserrat SemiBold;
+    font-size: 30px;
+    color: #34A6D8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+.content{
+    font-family: Montserrat Medium;
+    color: #797979;
+    line-height: 35px;
+    text-align: justify;
+}
+.paragraf1{
+    margin-top:45px;
+    margin-bottom: 30px ;
+}
+.paragraf2{
+    margin-top:20px;
+    margin-bottom: 30px ;
+}
+.paragraf3{
+    margin-top:20px;
+    margin-bottom: 30px ;
+}
+.paragraf4{
+    margin-top:20px;
+    margin-bottom: 30px ;
+}
+.textline{
+    color : #34A6D8;
+    font-family: Montserrat SemiBold;
+    font-size: 18px;
+}
+/* END Sejarah */
+
+
+/* Visi misi */
+.visi-misi{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(#F0F6FB, #ffffff);
+}
+.visi-misi h1{
+    font-family: Montserrat SemiBold;
+    font-size: 30px;
+    color : #34A6D8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.visi{
+    text-align: center;
+    font-family: Montserrat SemiBold;
+    color: rgb(63, 63, 63);
+    margin-bottom:20px;
+}
+.misi{
+    margin-top:20px;
+    text-align: justify;
+    font-family: Montserrat Medium;
+    color: rgb(63, 63, 63);
+    font-size:15px;
+}
+.misi2{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.misi3{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.misi4{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.img-smartcity{
+    margin-left:-30px;
+    margin-top:130px;
+}
+/* END visi mis */
+
+
+/* Struktur Organisasi */
+.struktur-organisasi{
+    width: 100%;
+    height: 100vh;
+    padding-top:80px;
+}
+.struktur-organisasi h1{
+    font-family: Montserrat SemiBold;
+    color: #34A6D8;
+    font-size: 25px;
+    text-align: center;
+}
+.img-struktur{
+    width: 200px;
+}
+/* END struktur */
+
+
+/* walikota */
+.walikota{
+    padding-top: 50px;
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(#F0F6FB, #ffffff);
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.content1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Montserrat Medium;
+    color: rgb(109, 109, 109);
+}
+.content1 h3{
+    font-family: Montserrat SemiBold;
+    margin-bottom: 20px;
+}
+
+/* END wlikota */
+
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 100vh;
+    padding-top: 450px;
+    background-image: url("../images/footer.svg");
+    font-family: Montserrat SemiBold;
+    font-size: 15px;
+}
+/* End Footer */
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+    padding-left:80px;
+    padding-right:180px;
+    
+    }
+    .navbar-default.scrolled{
+        background:rgb(0, 120, 172);
+        box-shadow: 0px 0.5px 20px #000000;
+        height: 50px;
+        padding-bottom:35px ;
+    }
+
+.waves{
+    width:100%;
+    margin-top: 80px;
+}
+#visimisi{
+    padding-top: 20px;
+}
+.col-image{
+    margin-top:-70px;
+}
+.footer-copyright{
+    margin-top: 10px;
+    font-family: Montserrat Medium;
+    color:#aaaaaa;
+    font-size: 13px;
+    text-align: center;
+}
